@@ -1,0 +1,40 @@
+/*****************************************************/
+/* BEGIN "backend/v2/backend/pages/home/styles.less" */
+body {
+  background-color: #00b4ff;
+}
+/* END   "backend/v2/backend/pages/home/styles.less" */
+/*****************************************************/
+/*****************************************************/
+/* BEGIN "backend/v2/components/pmr-home/style.less" */
+/* Your app custom files in this file */
+.view-left {
+  float: left;
+  width: 320px;
+  border-right: 1px solid #b2b2b2;
+}
+.view-main {
+  width: -webkit-calc(100% - 321px);
+  width: -moz-calc(100% - 321px);
+  width: -ms-calc(100% - 321px);
+  width: calc(100% - 321px);
+}
+@media (max-width: 768px) {
+  .view-left {
+    width: 0px;
+  }
+  .view-main {
+    width: -webkit-calc(100% - 1px);
+    width: -moz-calc(100% - 1px);
+    width: -ms-calc(100% - 1px);
+    width: calc(100% - 1px);
+  }
+}
+/* END   "backend/v2/components/pmr-home/style.less" */
+/*****************************************************/
+/*********************************************************/
+/* BEGIN "backend/v2/components/carpool-card/style.less" */
+/* END   "backend/v2/components/carpool-card/style.less" */
+/*********************************************************/
+
+

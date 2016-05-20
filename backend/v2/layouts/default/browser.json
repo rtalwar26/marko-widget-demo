@@ -1,0 +1,11 @@
+{
+  "dependencies": [
+    { "path": "framework7/dist/css/framework7.ios.css", "slot": "ios-slot" },
+    {"path":"framework7/dist/css/framework7.ios.colors.css","slot":"ios-slot"},
+    {"path": "framework7/dist/css/framework7.material.css","slot":"material-slot"},
+    {"path": "framework7/dist/css/framework7.material.colors.css","slot":"material-slot"},
+    "require: marko-widgets",
+    "require-run: ./main.js"
+  ]
+
+}

@@ -1,0 +1,8 @@
+{
+  "dependencies": [
+    "./styles.less",
+    "backend/v2/layouts/default/browser.json",
+    "backend/v2/components/pmr-home/browser.json"
+
+  ]
+}

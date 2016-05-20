@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "sourceMap": true,
+        "noImplicitUseStrict": true
+    },
+    "filesGlob": [
+        "./backend/**/*.ts",
+        ".tests/**/*.ts"
+    ],
+    "exclude":[
+        "node_modules",
+        "www"
+    ]
+}
