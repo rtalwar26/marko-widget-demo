@@ -23,7 +23,7 @@ var $$ = Dom7;
 
 appProps = {
     template7Pages: true,
-    debug:true
+    debug:false
 };
 
 mainViewProps = {domCache: true}
